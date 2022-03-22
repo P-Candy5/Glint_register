@@ -1,17 +1,17 @@
-let inputHolder = document.querySelectorAll("input");
-let passHold = document.querySelector("input[type='password']");
-let check = document.querySelector("input[placeholder='Confirm Password']");
-const place = document.querySelector(".show");
-
-function clickable() {
-  let passwordHolder = passHold.value;
-  let checkPassword = check.value;
-
-  if (passwordHolder === checkPassword) {
-    place = "";
-  } else {
-    place.innerText = "Incorrect Password";
-  }
-
-  console.log(place);
+function get(ele) {
+  return document.querySelector(ele);
 }
+
+const burg = get(".burg");
+burg.style.cursor = "pointer";
+
+burg.addEventListener("click", function () {
+  get(".main-nav").classList.remove("slide-away");
+});
+
+
+const sign = get(".sign");
+
+sign.addEventListener("click", function() {
+get("main-nav").classList.remove("slide-in")
+})
