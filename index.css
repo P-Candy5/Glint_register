@@ -183,7 +183,7 @@ h3 {
   /* margin: 0 350px; */
 }
 
-.conceive{
+.conceive {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -259,7 +259,7 @@ h3 {
   /* width: 1100px; */
   column-gap: 150px;
   margin-bottom: 200px;
-  width:900px;
+  width: 900px;
   row-gap: 80px;
   /* justify-content: center !important; */
   /* height:auto; */
@@ -292,27 +292,26 @@ h3 {
   justify-content: center;
 } */
 
-
-.chair{
+.chair {
   background-color: #000;
-  height: 96vh;
+  /* height: 96vh; */
   display: grid;
-  width:100vw;
+  width: 100vw;
 }
 
-.love{
+.love {
   display: grid;
   justify-content: center;
 }
 
-.love > h3{
+.love > h3 {
   margin-top: 0;
   padding-top: 0;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
-.love > h1{
+.love > h1 {
   color: #fff;
   margin-top: 0;
   padding-top: 0;
@@ -320,7 +319,7 @@ h3 {
   margin-bottom: 0;
 }
 
-.line{
+.line {
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
   width: 450px;
   margin-top: 0;
@@ -329,26 +328,25 @@ h3 {
   margin-bottom: 0;
 }
 
-.wooden > div{
-  width:500px;
-  height: 900px;
+.wooden > div {
+  width: 500px;
+  /* height: 900px; */
 }
 
-.cargo{
+.cargo {
   background-color: #e6e6e6;
   width: 100vw;
   height: max-content;
 }
 
-.wooden{
+.wooden {
   margin-top: 250px;
   width: 700px;
   background-color: #fff;
   height: fit-content;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
-
 
 .partners {
   width: 100vw;
@@ -428,7 +426,7 @@ h3 {
 
 .fire_fox {
   width: 100%;
-   margin-top: 100px;
+  margin-top: 100px;
 }
 
 .apple_image img:hover {
@@ -447,7 +445,7 @@ h3 {
   justify-content: center;
 }
 
-.fly{
+.fly {
   width: 100%;
   display: grid;
 }
@@ -471,14 +469,14 @@ h3 {
   color: #757575;
 }
 
-.new{
+.new {
   position: relative;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 .reach_out {
   /* background-color: #000; */
-  height: 250vh;
+  /* height: 250vh; */
   z-index: 0px;
   background-color: rgba(0, 0, 0, 0.8);
   display: grid;
@@ -486,10 +484,11 @@ h3 {
 }
 
 .get {
-  display: grid;
-  justify-content: center;
+  display: flex;
+  align-items: center;
   margin-top: 150px;
   width: 100%;
+  flex-direction: column;
   /* padding-left: 250px; */
 }
 
@@ -501,59 +500,58 @@ h3 {
 
 .get > p {
   color: #fff;
-  display: flex;
+  /* display: flex; */
   width: 900px;
   text-align: center;
-  justify-self: center;
+  /* justify-self: center; */
   /* margin-top: -120px; */
   font-weight: 600;
   font-size: 55px;
   box-sizing: inherit;
 }
 
-.message{
+.message {
   display: grid;
-  width:900px;
+  width: 900px;
   height: fit-content;
   grid-template-columns: 2fr 1fr;
   justify-self: center;
-  color:#000;
-  
+  color: #000;
+  margin: 150px 0;
 }
-.where > div  > h5{
+.where > div > h5 {
   color: #fff;
-   margin-bottom: 50px;
+  margin-bottom: 50px;
   margin-top: 50px;
   font-size: 14px;
 }
 
-.us{
+.us {
   margin-left: 50px;
   margin-right: 50px;
-  display: grid;
+  /* display: grid; */
 }
 
-.meet{
+.meet {
   width: 100%;
   margin-top: 50px;
   margin-bottom: 150px;
 }
 
-.meet > button{
+.meet > button {
   width: 100%;
-  border:none;
+  border: none;
   color: #fff;
   font-weight: bold;
   height: 50px;
   background-color: #007bff;
 }
 
-.where{
+.where {
   background-color: rgb(26, 24, 24);
-      
 }
 
-.where > div{
+.where > div {
   display: grid;
 }
 
@@ -563,94 +561,91 @@ h3 {
   margin-right: 50px;
 }
 
-.amphitheatre > h4{
-color: #007bff;
-font-size: 16px;
-font-weight: 600;
-padding-bottom: 20px;
+.amphitheatre > h4 {
+  color: #007bff;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 20px;
 }
 
-.amphitheatre> p{
+.amphitheatre > p {
   color: #757575;
   padding-bottom: 40px;
   line-height: 1.7rem;
 }
 
-.mail{
+.mail {
   display: grid;
 }
 
-.mail > h4{
-font-size: 18px;
-color: #007bff;
-font-weight: bold;
-width: 100px;
-margin-bottom: 20px;
+.mail > h4 {
+  font-size: 18px;
+  color: #007bff;
+  font-weight: bold;
+  width: 100px;
+  margin-bottom: 20px;
 }
 
-.mail a{
+.mail a {
   text-decoration: none;
   color: #33a242;
   font-size: 18px;
   margin-bottom: 10px;
 }
 
-.phone{
+.phone {
   margin-top: 50px;
-
 }
 
-.phone> h4{
+.phone > h4 {
   font-size: 18px;
   color: #007bff;
   margin-bottom: 20px;
 }
 
-.phone > p{
+.phone > p {
   font-size: 18px;
   color: #757575;
   line-height: 1.7rem;
 }
 
-
-.foot > h5{
-justify-content: center;
+.foot > h5 {
+  justify-content: center;
 }
 
-.send{
+.send {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.send > div{
+.send > div {
   display: grid;
 }
 
-
-.send  textarea{
+.send textarea {
   background-color: transparent;
-margin-top: 35px;
-border-top: none;
-height: 200px;
-font-size: 18px;
-border-left: none;
-border-right: none;
+  margin-top: 35px;
+  border-top: none;
+  height: 200px;
+  font-size: 18px;
+  border-left: none;
+  border-right: none;
 }
 
-.send  input{
-outline: none;
-margin-top: 20px;
-font-size: 14px;
-padding-bottom: 30px;
-background-color: transparent;
-height: 30px;
-border-top: none;
-border-left: none;
-border-right: none;
-border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-/* border: none; */
+.send input {
+  outline: none;
+  margin-top: 20px;
+  font-size: 14px;
+  padding-bottom: 30px;
+  background-color: transparent;
+  height: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  /* border: none; */
 }
 
-.send  > div > h6{
+.send > div > h6 {
   color: #fff;
   font-size: 14px;
   font-weight: 600;
@@ -677,13 +672,12 @@ ul {
   list-style-type: none;
 }
 
-ul li a{
+ul li a {
   text-decoration: none;
   font-size: 23px;
   line-height: 2.7rem;
   font-weight: 600;
-  color:#fff;
-
+  color: #fff;
 }
 
 .main-nav > ul {
@@ -701,37 +695,35 @@ ul li a{
   transform: translateX(-100%);
 }
 
-.close h3{
+.close h3 {
   color: #007bff;
 }
 
-.close{
+.close {
   /* padding: 40px; */
   display: flex;
-  right:20px;
+  right: 20px;
   height: fit-content;
-  
+
   column-gap: 25px;
+  align-items: center;
 }
 
-.sign{
+.sign {
   font-size: 25px;
   top: 0;
   cursor: pointer;
   color: #fff;
   background-color: #000;
-  border:2px solid #000;
-
+  border: 2px solid #000;
 }
 
-
-
-footer{
+footer {
   background-color: rgb(26, 24, 24);
   height: 85vh;
 }
 
-.note{
+.note {
   display: grid;
   height: fit-content;
   justify-content: center;
@@ -739,7 +731,7 @@ footer{
   width: 100vw;
 }
 
-.notified{
+.notified {
   display: grid;
   justify-content: center;
   width: 900px;
@@ -748,50 +740,48 @@ footer{
   grid-template-columns: 1fr 1fr;
 }
 
-.notified > div > h2{
+.notified > div > h2 {
   margin-bottom: 30px;
   color: #007bff;
   font-size: 38px;
 }
 
-.notified > div >p{
+.notified > div > p {
   color: #757575;
   font-size: 18px;
   line-height: 1.7rem;
   box-sizing: border-box;
 }
 
-.notified > div > h4{
+.notified > div > h4 {
   margin-bottom: 50px;
   color: #fff;
   font-weight: bolder;
   font-size: 18px;
 }
 
-.quia > p{
+.quia > p {
   margin-bottom: 40px;
 }
 
 .type {
-display: grid;
-height: 50px;
-width:90%;
-grid-template-columns: 2fr 1fr;
+  display: grid;
+  height: 50px;
+  width: 90%;
+  grid-template-columns: 2fr 1fr;
 }
 
-
-.addie{
-   background-color: rgb(32, 30, 30);
-
+.addie {
+  background-color: rgb(32, 30, 30);
 }
 
-.addie > img{
-  height:15px;
+.addie > img {
+  height: 15px;
   margin-left: 20px;
   margin-top: 20px;
 }
 
-.addie  input{
+.addie input {
   width: 50%;
   height: 50%;
   font-size: 14px;
@@ -803,7 +793,7 @@ grid-template-columns: 2fr 1fr;
   background-color: rgb(32, 30, 30);
 }
 
-.sub > button{
+.sub > button {
   width: 100%;
   height: 109%;
   background-color: #007bff;
@@ -814,22 +804,24 @@ grid-template-columns: 2fr 1fr;
   font-weight: 600;
 }
 
-
-.twenty{
+.twenty {
   display: flex;
   justify-content: center;
   color: #757575;
   column-gap: 20px;
   margin-bottom: 20px;
-
 }
 
-.right{
+.right {
   border-right: 1px solid #757575;
   padding-right: 15px;
 }
 
-.twenty > div > span > a{
+.twenty > div > span > a {
   text-decoration: none;
   color: #fff;
+}
+
+input {
+  color: white;
 }
