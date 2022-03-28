@@ -199,10 +199,6 @@ h3 {
   align-items: center;
 }
 
-.happy {
-  padding-left: 50px;
-  padding-right: 70px;
-}
 
 .digits {
   color: #fff;
@@ -295,56 +291,70 @@ h3 {
 .chair {
   background-color: #000;
   /* height: 96vh; */
-  display: grid;
+  /* display: grid; */
+  height:100vh;
   width: 100vw;
 }
 
 .love {
-  display: grid;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
 }
 
 .love > h3 {
-  margin-top: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-bottom: 0;
+  color: #007bff;
 }
 
 .love > h1 {
   color: #fff;
-  margin-top: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-bottom: 0;
+  font-size: 60px;
+  text-align: center;
+  width: 800px;
+  padding-bottom: 50px;
+  
 }
 
 .line {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-  width: 450px;
-  margin-top: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-bottom: 0;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.25);
+  width: 550px;
+  
 }
 
 .wooden > div {
-  width: 500px;
+  width: 550px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column !important;
+  /* display: grid;
+  justify-content: center; */
   /* height: 900px; */
 }
 
-.cargo {
-  background-color: #e6e6e6;
+.wooden  div img :hover{
+  cursor: pointer;
+  transform: scale(1.3);
+  transition-duration: 2s;
+  
+}
+
+.pic-img{
   width: 100vw;
-  height: max-content;
+  display:flex;
 }
 
 .wooden {
-  margin-top: 250px;
-  width: 700px;
-  background-color: #fff;
-  height: fit-content;
+  margin-top: -250px;
+  margin-bottom: 200px;
+  /* width: 700px; */
+  /* background-color: #fff; */
+  /* height: fit-content; */
   display: grid;
+  /* gap:-10px; */
+  margin-left: 100px;
+  align-items: center !important;
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -439,15 +449,19 @@ h3 {
 
 .butterflies_in_my_belly {
   width: 900px;
-  height: 300px;
-  display: grid;
+  /* height: 300px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   /* padding-top: 50px; */
   justify-content: center;
 }
 
 .fly {
   width: 100%;
-  display: grid;
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 200px;
 }
 
 .butterflies_in_my_belly > img {
@@ -459,14 +473,18 @@ h3 {
 
 .cook {
   color: #000;
-  margin-top: -60px;
+  /* margin-top: -60px; */
   /* padding-right: 20px !important; */
 }
 
 .butterflies_in_my_belly > p {
-  margin-top: -110px;
-  /* padding-left: 20px; */
+  
+  padding-top: 10px;
   color: #757575;
+}
+
+.butterflies_in_my_belly > h3{
+  padding-top: 10px;
 }
 
 .new {
