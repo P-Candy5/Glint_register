@@ -199,7 +199,6 @@ h3 {
   align-items: center;
 }
 
-
 .digits {
   color: #fff;
   font-size: 85px;
@@ -292,7 +291,7 @@ h3 {
   background-color: #000;
   /* height: 96vh; */
   /* display: grid; */
-  height:100vh;
+  height: 100vh;
   width: 100vw;
 }
 
@@ -313,36 +312,41 @@ h3 {
   text-align: center;
   width: 800px;
   padding-bottom: 50px;
-  
 }
 
 .line {
   border-bottom: 1px solid rgba(238, 238, 238, 0.25);
   width: 550px;
-  
 }
 
 .wooden > div {
-  width: 550px;
+  /* width: 550px; */
   display: flex;
   /* justify-content: center;
   align-items: center; */
   flex-direction: column !important;
+  overflow: hidden;
   /* display: grid;
   justify-content: center; */
   /* height: 900px; */
 }
 
-.wooden  div img :hover{
+.wooden div img:hover {
   cursor: pointer;
-  transform: scale(1.3);
-  transition-duration: 2s;
-  
+  transform: scale(1.06);
+  transition-duration: 1s;
 }
 
-.pic-img{
+.wooden div img {
+  width: 100%;
+  display: block;
+}
+.pic-img {
   width: 100vw;
-  display:flex;
+  display: flex;
+  justify-content: center;
+  padding: 0 300px;
+  box-sizing: border-box;
 }
 
 .wooden {
@@ -353,7 +357,7 @@ h3 {
   /* height: fit-content; */
   display: grid;
   /* gap:-10px; */
-  margin-left: 100px;
+  /* margin-left: 100px; */
   align-items: center !important;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -478,12 +482,11 @@ h3 {
 }
 
 .butterflies_in_my_belly > p {
-  
   padding-top: 10px;
   color: #757575;
 }
 
-.butterflies_in_my_belly > h3{
+.butterflies_in_my_belly > h3 {
   padding-top: 10px;
 }
 
